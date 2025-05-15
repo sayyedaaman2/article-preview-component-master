@@ -1,36 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/styles/style.css">
   <title>Frontend Mentor | Article preview component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+
 </head>
+
 <body>
+  <div class="wrapper">
+    <main class="main">
+      <article class="article">
+        <div class="article_container">
+          <div class="img-section">
+            <img src="./images/drawers.jpg" alt="drawers" aria-label="Drawers Image" />
+          </div>
+          <div class="article_section">
+            <div class="article_info">
+              <h1 class="article_title">
+                Shift the overall look and feel by adding these wonderful
+                touches to furniture in your home
+              </h1>
+              <p class="article_summary">
+                Ever been in a room and felt like something was missing? Perhaps
+                it felt slightly bare and uninviting. I’ve got some simple tips
+                to help you make any room feel complete.
+              </p>
+            </div>
+            <div class="article_author">
+              <div class="author_img">
+                <img class="avatar" src="./images/avatar-michelle.jpg" alt="avatar" aria-label="avatar-michelle" />
+              </div>
+              <div class="author_info">
+                <h2 class="author_name">
+                  Michelle Appleton
+                </h2>
+                <p class="author_published">
+                  28 Jun 2020
+                </p>
+              </div>
+              <button class="share_btn">
+                <i class="fa-solid fa-share"></i>
+              </button>
 
-  Shift the overall look and feel by adding these wonderful 
-  touches to furniture in your home
+            </div>
+            <div class="share_option">
+              <p class="share_text">
+                Share
+              </p>
+              <div class="social_links">
 
-  Ever been in a room and felt like something was missing? Perhaps 
-  it felt slightly bare and uninviting. I’ve got some simple tips 
-  to help you make any room feel complete.
+                <i class="fa-brands fa-square-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+              <button class="share_btn">
+                <i class="fa-solid fa-share"></i>
+              </button>
+            </div>
+          </div>
 
-  Michelle Appleton
-  28 Jun 2020
+        </div>
+      </article>
 
-  Share
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+
+
+
+
+
+
+
+    </main>
+
+    <footer>
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/sayyedaaman2/article-preview-component-master">Sayyed Aaman</a>.
+    </footer>
   </div>
 </body>
+
 </html>
