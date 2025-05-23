@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="/styles/style.css">
   <title>Frontend Mentor | Article preview component</title>
 
-
+  <script src="./script/script.js" defer></script>
 </head>
 
 <body>
@@ -21,7 +21,7 @@
     <main class="main">
       <article class="article">
         <div class="article_container">
-          <div class="img-section">
+          <div class="img_section">
             <img src="./images/drawers.jpg" alt="drawers" aria-label="Drawers Image" />
           </div>
           <div class="article_section">
@@ -48,25 +48,26 @@
                   28 Jun 2020
                 </p>
               </div>
-              <button class="share_btn">
-                <i class="fa-solid fa-share"></i>
-              </button>
+              <div class="share_btn">
 
-            </div>
-            <div class="share_option">
-              <p class="share_text">
-                Share
-              </p>
-              <div class="social_links">
+                <button class="" id="openDialogButton">
+                  <i class="fa-solid fa-share"></i>
+                </button>
+                <div class="share_option" id="dialogOverlay">
+                  <p class="share_text">
+                    Share
+                  </p>
+                  <div class="social_links">
 
-                <i class="fa-brands fa-square-facebook"></i>
-                <i class="fa-brands fa-twitter"></i>
-                <i class="fa-brands fa-pinterest"></i>
+                    <i class="fa-brands fa-square-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest"></i>
+                  </div>
+
+                </div>
               </div>
-              <button class="share_btn">
-                <i class="fa-solid fa-share"></i>
-              </button>
             </div>
+
           </div>
 
         </div>
